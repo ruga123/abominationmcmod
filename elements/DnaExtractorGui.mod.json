@@ -1,0 +1,197 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 148,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow0.png",
+          "use1Xscale": true,
+          "name": "arrow0.png",
+          "x": 191,
+          "y": 67
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 174,
+          "y": 74
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 259,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dna Extractor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dna Extractor",
+          "x": 135,
+          "y": 46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dnavileblack.png",
+          "use1Xscale": false,
+          "name": "dnavileblack.png",
+          "x": 175,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scan1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ScanCheck"
+          },
+          "name": "scan1.png",
+          "x": 149,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scan2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ScanCheck2"
+          },
+          "name": "scan2.png",
+          "x": 149,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scan3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ScanCheck3"
+          },
+          "name": "scan3.png",
+          "x": 149,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scan4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ScanCheck4"
+          },
+          "name": "scan4.png",
+          "x": 149,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scan5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ScanCheck5"
+          },
+          "name": "scan5.png",
+          "x": 149,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scan6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ScanCheck6"
+          },
+          "name": "scan6.png",
+          "x": 149,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scan7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ScanCheck7"
+          },
+          "name": "scan7.png",
+          "x": 149,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scan8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ScanCheck8"
+          },
+          "name": "scan8.png",
+          "x": 149,
+          "y": 75
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "DnaExtractorGuiThisGUIIsOpened"
+    },
+    "onTick": {
+      "name": "DnaExtractorGuiWhileThisGUIIsOpenTick"
+    }
+  }
+}

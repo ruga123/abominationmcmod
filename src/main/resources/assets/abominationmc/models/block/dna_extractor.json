@@ -1,0 +1,10 @@
+{
+  "parent": "abominationmc:custom/dnaextractor",
+  "textures": {
+    "all": "abominationmc:blocks/dnaextract3",
+    "particle": "abominationmc:blocks/dnaextract3",
+    "0": "abominationmc:blocks/dnaextract1",
+    "1": "abominationmc:blocks/dnaextract2",
+    "2": "abominationmc:blocks/dnaextract3"
+  }
+}

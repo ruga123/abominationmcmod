@@ -1,0 +1,26 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.ROTTEN_FLESH"
+      },
+      {
+        "value": "Blocks.SKULL#2"
+      },
+      {
+        "value": "Blocks.ZOMBIE_WALL_HEAD"
+      },
+      {
+        "value": "Items.SKULL#2"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "dna_ingridients",
+    "namespace": "mod"
+  }
+}

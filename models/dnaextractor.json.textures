@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dnaextract1",
+        "1": "dnaextract2",
+        "2": "dnaextract3"
+      },
+      "name": "default"
+    }
+  }
+}
